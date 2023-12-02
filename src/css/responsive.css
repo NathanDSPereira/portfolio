@@ -1,0 +1,146 @@
+@media (max-width: 1220px) {
+
+    .div-imgs-link a {
+        margin-right: 0.7rem;
+    }
+
+    .img-github {
+        height: 3.9rem;
+    }
+
+    .img-linkedin {
+        height: 4.5rem;
+    }
+
+    .img-github, .img-linkedin {
+        margin-right: 0.5rem;
+    }
+
+    .header-section-div-img img {
+        height: 35rem;
+    }
+
+    .list-course-experience {
+        font-size: 1.8rem;
+
+        padding: 0px 2rem 0px 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .title-home {
+        padding-bottom: 7rem;
+    }
+
+    .header-section-div-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+
+        padding: 0px;
+    }
+
+    .header-section-div-img, .section-article-about img {
+        display: none;
+    }
+
+    .title-about {
+        padding-top: 7rem;
+    }
+
+    .title-experience {
+        padding-bottom: 0rem;
+    }
+
+    .section-aside-experience {
+        flex-direction: column;
+    }
+
+    .title-course-experience {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 3rem 0px;
+    }
+
+    .list-course-experience {
+        margin-left: 3rem;
+    }
+    
+    .project-item-info h3 {
+        font-size: 2.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .header-nav p {
+        display: none;
+    }
+    
+    .header-nav-list {
+        width: 100%;
+    }
+    .project-list-item {
+        width: 40%;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .header-nav {
+        height: 15rem;
+
+        position: initial;
+    }
+
+    .header-nav-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: initial;
+
+        height: 100%;
+        
+        list-style-type: circle;
+    }
+
+    .header-section-div-text {
+        text-align: center;
+    }
+
+    .div-imgs-link {
+        flex-direction: column;
+    }
+    
+    .div-imgs-link a {
+        margin-bottom: 3rem;
+
+        border-bottom: 1px solid #fff;
+    }
+
+    .div-imgs-link a:hover {
+        border: none;
+    }
+
+    .title-experience {
+        font-size: 4.5rem;
+    }
+
+    .project-list-item {
+        width: 70%;
+    }
+
+    .project-item-info {
+        height: 16rem;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}

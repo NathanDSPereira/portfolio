@@ -1,0 +1,132 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', Arial;
+
+    width: 100%;
+}
+
+.header {
+    font-size: 2rem;
+
+    background: linear-gradient(to top, #444343, #000000);
+}
+
+.header-nav, .header-nav-list, .header-section-info {
+    display: flex;
+}
+
+.header-nav {
+    justify-content: space-between;
+    align-items: center;
+
+    text-transform: uppercase;
+    color: #fff;
+
+    padding: 0 6rem 0 6rem;
+
+    border-bottom: 1px solid #fff;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 5rem;
+    width: 100%;
+
+    background: #000;
+}
+
+.header-nav p, .footer p i {
+    -webkit-text-stroke: 1px rgb(0, 225, 255)
+}
+
+.header-nav-list {
+    justify-content: space-around;
+
+    width: 50rem;
+}
+
+.header-nav-list li a, .div-imgs-link a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-nav-list li:hover {
+    cursor: pointer;
+
+    text-decoration: underline;
+
+    color: #fff;
+
+    transition: all .5s;
+}
+
+.title-home {
+    font-size: 5rem;
+    color: #fff;
+
+    text-align: center;
+
+    padding-top: 7rem;
+}
+
+.header-section-info {
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 3rem;
+}
+
+.header-section-div-text {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 4rem;
+    font-size: 3rem;
+
+    padding-left: 6rem;
+}
+
+.header-section-div-text p i {
+    padding-left: 0.5rem;
+
+    -webkit-text-stroke: 1px rgb(0, 225, 255);
+}
+
+.div-imgs-link, .div-imgs-link a {
+    display: flex;
+}
+
+.div-imgs-link {
+    justify-content: space-between;
+    
+    padding-top: 5rem;
+}
+
+.div-imgs-link a {
+    align-items: center;
+
+    text-transform: initial;
+}
+
+.div-imgs-link a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.img-github, .img-linkedin {
+    margin-right: 1rem;
+}
+
+.img-github {
+    height: 3.9rem;
+}
+
+.img-linkedin {
+    height: 4.5rem;
+}
+
+.header-section-div-img img {
+    height: 45rem;
+}
